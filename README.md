@@ -1,4 +1,4 @@
-# 📓 Back up og all my Earth Observation and Machine Learning formulas.
+# 📓 Repo for Latex formulas
 
 
 ![DGNSS](https://github.com/ThomasJames/EO-ML_Formulas/blob/master/DGNSS_computations.bib)
