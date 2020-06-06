@@ -1,0 +1,28 @@
+ \begin{array}{l}
+\text{Expression of a convolutional neural network}\\
+\\
+\ \ \ \ \ \ I( i,\ j,\ k) \ -Input\ Features\\
+\ \ \ ( i,\ j) \ -\ Spatial\ Location\\
+k\ -\ the\ input\ channel\\
+Where\ K^{( l,\ k)} \ \in ℝ^{m*n} \ is\ the\ convolution\ kernal\ of\ size\ m*n\\
+\\
+Y^{( l)} \ =\ I^{( k)} \ *\ K^{( l,\ k)} \ =\underset{m}{\Sigma }\underset{}{}\underset{n}{\Sigma }\underset{}{}\underset{k}{\Sigma }\underset{}{}( m,\ n;\ k) K( i\ -\ m,\ j-n;\ l,\ k)\\
+\\
+\text{Softmac function }\\
+\\
+Softmax\ =\ \frac{exp( x_{i})}{\sum _{j} exp( x_{j})}\\
+\\
+\\
+\\
+\text{Rectified Linear Unit}\\
+\\
+R( x) \ =\ max( 0,\ z)\\
+\\
+\text{Evaluating binary Classification task}\\
+\\
+F1\ =\ 2\ *\ \frac{Precision\ *\ Recall}{Precision\ +\ Recall}\\
+\\
+Where:\ Precision\ =\ TP( TP\ +\ FP) ,\ Recall\ =\ TP/( TP\ +\ FN)\\
+\\
+Kappa\ =\ \ \frac{p_{o} \ -\ p_{e}}{1\ -\ P_{e}}\\
+\end{array}
